@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='../bootstrap/css/bootstrap.css' />
+<link rel='stylesheet' type='text/css' href='../bootstrap/css/bootstrap-responsive.css' />
+<link rel='stylesheet' type='text/css' href='../index.css' />
+<script src='../scriptaculous-js-1.9.0/lib/prototype.js'></script>
+<script src='../index.js'></script>
+</head>
+<body>
+<div id='wrapper' class="row">
+    <div class="span8 invisible" id='content' style="margin-top:0px;">Here is the content</div>
+    <div class="span4">
+        <div class="pic code"></div><br />
+        <h3>Some code I've written...</h3>
+        <ul class=>
+        <li id='tumblr'>Library I wrote at a hackathon to pull in various posts from Tumblr for an alternate dashboard view: <br /><a onclick="set_content('tumblrhack');">Code</a><br /></li>
+        <li id='gearm'>Gearman implementation of a script to grab Twitter user's followers' locations using Twitter & Mapquest APIs: <br /><a onclick="set_content('gearman');">Code</a></li>
+        </ul>
+
+	<a href="/">Back to the home page!</a>
+    </div>
+</div>
+</body>
+	<div class='content_type' id='tumblrhack'>
+		<script src="https://gist.github.com/2284707.js?file=gistfile1.aw"></script>
+	</div>
+ 
+	<div class='content_type' id='gearman'>
+		<script src="https://gist.github.com/2329810.js?file=gistfile1.aw"></script>
+	</div>
+</html>

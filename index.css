@@ -1,0 +1,57 @@
+html, body{
+    background:#EEE;
+}
+
+#wrapper{
+    margin-top:30px;
+    margin-left:40px;
+    max-height:100%;
+}
+
+.span8, .span4{
+    padding:10px;
+    background: white;
+    border-radius:4px;
+}
+
+.span8{
+    margin-top:70px;
+}
+
+.pic{
+    width:100%;
+    height:240px;
+    border-radius:4px;
+}
+
+.code{
+    background:url('code.jpg');
+}
+
+#pic{
+    width:100%;
+    height:240px;
+    border-radius:4px;
+    background:url('pic.jpg');
+}
+
+.content_type{
+    display:none;
+}
+
+.invisible{
+    visibility:hidden;
+}
+
+a{
+    cursor:pointer;
+}
+
+#content{
+    line-height:200%;;
+}
+
+.strong{
+    font-weight:bold;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.css' />
+<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap-responsive.css' />
+<link rel='stylesheet' type='text/css' href='index.css' />
+<script src='scriptaculous-js-1.9.0/lib/prototype.js'></script>
+<script src='scriptaculous-js-1.9.0/src/scriptaculous.js'></script>
+<script src='scriptaculous-js-1.9.0/src/effects.js'></script>
+<script src='index.js'></script>
+</head>
+<body>
+<div id='wrapper' class="row">
+    <div class="span8 invisible" id='content'>Here is the content</div>
+    <div class="span4">
+        <div id="pic"></div><br />
+        <h3>Aaron Marks is a...</h3>
+        <ul class="unstyled">
+        <li id='personli'><a onclick="set_content('person');">Person</a></li>
+        <li id='hackerli'><a onclick="set_content('hacker');">Hacker</a></li>
+        <li id='writerli'><a onclick="set_content('writer');">Writer</a></li>
+        <li id='readerli'><a onclick="set_content('reader');">Reader</a></li>
+        <li id='web_presenceli'><a onclick="set_content('web_presence');">Search Result</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+
+<div class='content_type' id='person'>
+    <ul class="unstyled">
+    <li>1991. born</li>
+    <li>1994. family gets windows 3.1, i play copious ski free.</li>
+    <li>2009. move to New York</li>
+    <li>2010. found Tourbinder, my first company.</li>
+    <li>2011. work at Tumblr. learn at hackNY</li>
+    <li>2011. live in prague for a semester. drink much beer.</li>
+    <li>2012. publish writings online.</li>
+    </ul>
+</div>
+
+<div class='content_type' id='hacker'>
+    I've built internet technologies for fun and profit since the beginning of the millenium.<br />
+    Tools I use often are: PHP, MySQL, Ruby on Rails, Bootstrap, vim, memcached, and git.
+    <br />Places I've worked and things I've built are: <ul>
+        <li>Tumblr (Text-extraction, large-scale engineering, caching)</li>
+        <li>Tourbinder (API's, Databases, PHP's more obscure functions)</li>
+        <li>NYU (Data structures, algorithms, most of the university stuff you'd expect...)</li>
+        <li>Myself (LISP dialects, Data mining, whatever new CSS /JS framework is en vogue)</li>
+        </ul>
+	<a href="/code">Here is some code I have written!</a>
+</div>
+
+<div class='content_type' id='writer'>
+    I write essays, journalism, and fiction.  Sometimes people are nice enough to publish what I've written. You can read some here:<br />
+    <ul >
+    <li><a href="http://thoughtcatalog.com/2011/thousand-megabyte-stare/">Thought Catalog</li>
+    <li><a href="http://nyulocal.com/city/2012/03/26/hackers-took-a-pause-from-the-solitude-at-a-24-hour-hackathon-this-weekend/">NYU Local</li>
+    <li><a href="http://www.sonicscoop.com/2010/04/13/unitedwetab-brings-legally-licensed-guitar-tabs-to-the-masses/">SonicScoop</a></li>
+    </ul>
+</div>
+
+<div class='content_type' id='reader'>
+    I spend more time reading than I probably should. Here
+    is a list of some books I've been reading lately.<ul >
+    <li>Slouching Towards Bethlehem by Joan Didion</li>
+    <li>The Best American Essays 2007</li>
+    <li>The Marriage Plot by Jeffrey Eugenides</li>
+    <li>There Is No Year by Blake Butler</li>
+    <li>Working by Studs Terkel</li>
+    <li>The Intelligent Investor by Benjamin Graham</li>
+    </ul>
+    See them all <a href="http://www.goodreads.com/review/list/4819749?order=d&shelf=read&sort=date_read">here!</a>
+</div>
+
+<div class='content_type' id='web_presence'>
+    You, yes you, can interact with me directly, elsewhere on the web:
+    <ul >
+    <li><a href="http://www.twitter.com/aaronjmarks">Twitter</a></li>
+    <li><a href="http://aaronjmarks.tumblr.com">Tumblr</a></li>
+    <li><a href="https://github.com/aaronmarks">GitHub</a></li>
+    <li><a href="mailto:aaron.marks5@gmail.com">Email</a></li>
+    </ul>
+</div>
+</html>
